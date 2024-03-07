@@ -3,11 +3,11 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const sequelize = new Sequelize(
-  "nikeShoes",
-  "root",
-  String(process.env.PASSWORD),
+  "btq6w1wdtycuv9ftwqxy",
+  "uwe4rcsmmjuzdmdx",
+  "vg9wJZr2a6q8BsLHTTNP",
   {
-    host: "localhost",
+    host: "btq6w1wdtycuv9ftwqxy-mysql.services.clever-cloud.com",
     dialect: "mysql",
   }
 );
